@@ -8,3 +8,5 @@ Założenia gry:
 * Na planszy obecna jest moneta. Gdy Gracz ją zbierze, umieszczana jest kolejna, na losowym polu.
 
 # DarkSlateBlue-chasing-Gold
+
+https://kiwanska.github.io/DarkSlateBlue-chasing-Gold/
