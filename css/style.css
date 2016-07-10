@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: LightSeaGreen;
+    font-family: 'OpenSans';
+    color: black;
+    line-height: 26px;
+}
+
+.background {
+	background: linear-gradient(white 50%, rgba(255,255,255,0) 0) 0 0,
+	radial-gradient(circle closest-side, white 53%, rgba(255,255,255,0) 0) 0 0,
+	radial-gradient(circle closest-side, white 50%, rgba(255,255,255,0) 0) 55px 0 LightSkyBlue 	;
+	background-size:110px 180px;
+	background-repeat:repeat-x;
+}
+
+.board {
+	position: relative;
+	width: 504px;
+	height: 504px;
+	margin: 50px auto 20px;
+	border: 2px solid black;
+	
+}
+
+.board div {
+	float: left;
+	margin: 1px;
+	width: 48px;
+	height: 48px;
+	background-color: LightSkyBlue 	 ;
+}
+
+div.user {
+	background-color: DarkSlateBlue;
+    width: 48px;
+    height: 48px;
+}
+
+div.coin {
+	background-color: Gold;
+	border-radius: 50%;
+	z-index: 10;
+	position: relative;
+	animation: flip 0.3s infinite;
+}
+
+#again {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	display: none;
+	color: white;
+	top: 350px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	font-size: 14px;
+}
+
+#again button {
+	background-color: black;
+	padding: 15px 60px;
+	border-radius: 5px;
+	border-style: none;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#again button:hover {
+	background-color: DarkSlateBlue;
+}
+
+#again button:active {
+	background-color: DarkGrey;
+}
+
+#again button:focus {
+	outline: none;
+}
+
+.dark-slate-blue {
+	background-color: DarkSlateBlue;
+	color: white;
+}
+
+.gold {
+	background-color: gold;
+	border-radius: 50%;
+}
+
+.black-border {
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+div.tomato {
+	background-color: Tomato;
+	animation: pulse 1s infinite alternate;
+	z-index: 100;
+	color: white;
+	border-radius: 32px 13px 32px 13px;
+	animation: spin 10s linear infinite;
+}
+
+span.tomato {
+	background-color: Tomato;
+	border-radius: 32px 13px 32px 13px;
+	color: white;
+}
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+.points {
+	color: white;
+}
+
+@keyframes pulse {
+	from {background-color: LightCoral;}
+	to {background-color: Tomato;}
+}
+
+@keyframes flip {
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(180deg);}
+}
+
+https://kiwanska.github.io/jquery-furry-game/
