@@ -1,10 +1,12 @@
 # DarkSlateBlue-chasing-Gold
 
-Założenia gry:
+Game rules:
 --------------
-* Plansza gry ma rozmiary 10x10 pól,
-* Gracz porusza się w jednym z czterech kierunków: góra, dół, lewo, prawo,
-* Gdy Gracz uderzy w ścianę, następuje koniec gry,
-* Na planszy obecna jest moneta. Gdy Gracz ją zbierze, umieszczana jest kolejna, na losowym polu.
+* the board is 10x10 tiles grid,
+* player can move up, down, left and right,
+* hitting the wall ends game,
+* collecting coin scores point, coin spawned randomly
 
 https://kiwanska.github.io/DarkSlateBlue-chasing-Gold/
+
+Kasia Iwańska, Dominik Kolasiński, Mikołaj Szczepkowski
